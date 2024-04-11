@@ -321,6 +321,10 @@ GameObject:
   - component: {fileID: 1155182222}
   - component: {fileID: 1155182221}
   - component: {fileID: 1155182220}
+  - component: {fileID: 1155182224}
+  - component: {fileID: 1155182225}
+  - component: {fileID: 1155182226}
+  - component: {fileID: 1155182227}
   m_Layer: 0
   m_Name: Cube
   m_TagString: Untagged
@@ -414,6 +418,64 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1155182224
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155182219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dad3b23b05b559449be045ad34c19e22, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  turnSpeed: 0
+  bulletPrefab: {fileID: 0}
+  firePosition: {fileID: 0}
+  bulletSpeed: 0
+--- !u!114 &1155182225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155182219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 904b52461bcf8a24dbab52312977c63a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1155182226
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155182219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 55e84fb18d56885468369ced64bc5e7f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 0
+  turnSpeed: 0
+--- !u!114 &1155182227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1155182219}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7230816c14874954bba54d7636ac673f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  bulletPrefab: {fileID: 0}
+  firePosition: {fileID: 0}
+  bulletSpeed: 0
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
